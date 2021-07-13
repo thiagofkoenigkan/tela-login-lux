@@ -1,0 +1,125 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face{
+    font-family: Roboto-medium;
+    src: url("assets/fonts/Roboto-Medium.ttf");
+}
+
+@font-face{
+  font-family: Roboto-reg;
+  src: url("assets/fonts/Roboto-Regular.ttf");
+}
+
+.image-login{
+  width: 100vw;
+  height: 100vh;
+  background-image: url(lux-1024.jpg);
+  background-size: cover;
+  background-position: fixed;
+}
+
+.login_box{
+  width: 15rem;
+  height: 20rem;
+  background:#80597681;
+  position: absolute;
+  top: 25%;
+  left: 15%;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.411);
+  z-index: 0;
+  display: grid;
+  padding: 25px;
+}
+
+.login_box h1{
+  font-size: 2rem;
+  font-family: sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  color: #ffffff;
+}
+
+.info{
+  font-family: 'Roboto-reg';
+  text-align: center;
+  color: #ffffff;
+}
+
+#login{
+  margin-bottom: 1rem;
+  padding: 0.3rem;
+  border: 1px solid rgba(255, 255, 255, 0.164);
+  cursor: text;
+  background: #b172a1b7;
+  outline: none;
+}
+
+#login:focus{
+  border: 1px solid white;
+}
+
+#password{
+  padding: 0.3rem;
+  border: none;
+  border: 1px solid rgba(255, 255, 255, 0.164);
+  cursor: text;
+  background: #b172a1b7;
+  outline: none;
+}
+
+#password:focus{
+  border: 1px solid white;
+}
+
+.button{
+  font-family: 'Roboto-medium';
+  font-size: 1rem;
+  border: none;
+  transition: 0.3s;
+  background: #b172a1b7;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.164);
+}
+
+.button:hover{
+  background: #dfc7d9b7;
+  transform: translateY(-2px);
+}
+
+@media(max-width: 650px){
+  .image-login{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(lux-650.png);
+    background-size: cover;
+    background-position: fixed;
+  }
+}
+
+@media(max-width: 400px){
+  .image-login{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(lux-375.png);
+    background-size: cover;
+    background-position: fixed;
+  }
+
+  .login_box{
+    width: 15rem;
+    height: 20rem;
+    background:#80597681;
+    position: absolute;
+    top: 20%;
+    left: 16%;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.411);
+    z-index: 0;
+    display: grid;
+    padding: 25px;
+  }
+}
+
