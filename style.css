@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body{
+  overflow: hidden;
+}
+
 @font-face{
     font-family: Roboto-medium;
     src: url("assets/fonts/Roboto-Medium.ttf");
@@ -13,6 +17,8 @@
   font-family: Roboto-reg;
   src: url("assets/fonts/Roboto-Regular.ttf");
 }
+
+
 
 .image-login{
   width: 100vw;
