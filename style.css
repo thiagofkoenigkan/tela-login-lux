@@ -25,14 +25,14 @@ body{
   height: 100vh;
   background-image: url(lux-1024.jpg);
   background-size: cover;
-  background-position: fixed;
+  background-position: center;
 }
 
 .login_box{
   width: 15rem;
   height: 20rem;
   background:#80597681;
-  position: absolute;
+  position: fixed;
   top: 25%;
   left: 15%;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.411);
@@ -105,13 +105,13 @@ body{
     height: 100vh;
     background-image: url(lux-650.png);
     background-size: cover;
-    background-position: fixed;
+    background-position: center;
   }
   .login_box{
     width: 15rem;
     height: 20rem;
     background:#80597681;
-    position: absolute;
+    position: fixed;
     top: 20%;
     left: 3%;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.411);
@@ -131,16 +131,15 @@ body{
     height: 100vh;
     background-image: url(lux-375.png);
     background-size: cover;
-    background-position: fixed;
+    background-position: center;
   }
 
   .login_box{
     width: 15rem;
     height: 20rem;
     background:#80597681;
-    position: absolute;
-    top: 20vh;
-    left: 11vw;
+    position: fixed;
+    left: 12%;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.411);
     z-index: 0;
     display: grid;
