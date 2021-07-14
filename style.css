@@ -91,6 +91,9 @@
 }
 
 @media(max-width: 650px){
+  body{
+    overflow: hidden;
+  }
   .image-login{
     width: 100vw;
     height: 100vh;
@@ -98,9 +101,25 @@
     background-size: cover;
     background-position: fixed;
   }
+  .login_box{
+    width: 15rem;
+    height: 20rem;
+    background:#80597681;
+    position: absolute;
+    top: 20%;
+    left: 3%;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.411);
+    z-index: 0;
+    display: grid;
+    padding: 25px;
+  }
 }
 
-@media(max-width: 400px){
+@media(max-width: 375px){
+  body{
+    overflow: hidden;
+  }
+  
   .image-login{
     width: 100vw;
     height: 100vh;
@@ -114,8 +133,8 @@
     height: 20rem;
     background:#80597681;
     position: absolute;
-    top: 20%;
-    left: 16%;
+    top: 20vh;
+    left: 11vw;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.411);
     z-index: 0;
     display: grid;
